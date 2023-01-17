@@ -1,6 +1,7 @@
 body{
     background-color:  #F6F8F9;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 header{
     background-color: white;
@@ -12,4 +13,16 @@ header{
 h1{
     display: inline-block;
     vertical-align: middle;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.container-bottoni{
+    border-bottom: 2px solid  #F6F8F9;
+    padding: 10px 40px;
 }
