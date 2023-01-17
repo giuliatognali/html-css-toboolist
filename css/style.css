@@ -28,13 +28,20 @@ h1{
     padding: 10px 40px;
 }
 
-.task{
-    background-color: blue;
-    color: white;
-}
+
 .button{
-    border: 1px solid black;
     border-radius: 5px;
-    pa
+    padding: 5px 10px;
+    border: 1px solid;
+}
+.task{
+    background-color:#47ADF1;
+    color: white;
+    
+}
+
+.section{
+    background-color: white;
+    color:  #C8CED3;
 }
 h2
