@@ -21,6 +21,8 @@ h1{
     background-color: white;
     margin-top: 40px;
     border-radius: 5px;
+    padding-bottom:20px;
+    margin-bottom: 10px;
 }
 section{
     margin-left: 40px;
@@ -33,7 +35,6 @@ section{
     border-bottom: 2px solid  #F6F8F9;
     padding: 10px 40px;
 }
-
 
 .button{
     border-radius: 5px;
@@ -57,17 +58,21 @@ section{
     height: 5px;
 
 }
-/* Liste */
 
+/* ELEMENTI LISTE */
+
+.title{
+    font-size: 20px;
+}
 
 .subtitle{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 .list{
     font-size: 16px;
-    margin-top: 10px;
+    margin-bottom: 35px;
 }
 
 .check::before{
@@ -90,4 +95,35 @@ section{
     border: 1px solid red;
     border-radius: 50%;
     margin-right:10px;
+}
+
+/* PULSANTI LISTE */
+
+.box{
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    padding: 7px 10px;
+    margin: 5px;
+}
+
+.editorial{
+     background-color: #45ABEA;
+}
+
+.goals{
+    background-color: #9C72E4;
+}
+
+.recruiting{
+    background-color:#65C1AA;
+}
+.mobile{
+    background-color: #F29E33;
+}
+.website{
+    background-color:#D863A1;
+}
+.sales{
+    background-color: #B0C926;
 }
