@@ -22,6 +22,9 @@ h1{
     margin-top: 40px;
     border-radius: 5px;
 }
+section{
+    margin-left: 40px;
+}
 
 /* 
     bottoni
@@ -43,7 +46,7 @@ h1{
     
 }
 
-.section{
+.add-section{
     background-color: white;
     color:  #C8CED3;
 }
@@ -64,7 +67,7 @@ h1{
 }
 .list{
     font-size: 16px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .check::before{
@@ -87,5 +90,4 @@ h1{
     border: 1px solid red;
     border-radius: 50%;
     margin-right:10px;
-
 }
