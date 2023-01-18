@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- /Google font -->
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,46 +21,50 @@
     <!-- inizio header -->
     <header>
         <img src="img/logo.png" alt="logo" id="logo">
-        <h1>Toboolist</h1>
+        <h1 class="logo-text">Toboolist</h1>
     </header>
     <!-- fine header -->
     <!-- inizio main -->
-    <main class="container">
+    <main>
         <!-- bottoni -->
-        <div class=container-bottoni>
-            <button type="button" class="button task">Add Task</button>
+        <div class=btn-area>
+            <button type="button" class="button add-task">Add Task</button>
             <button type="button" class="button add-section">Add Section</button>
         </div>
-        <!-- inizio new task -->
-        <section>
-            <h2 class="title">New Task</h2>
-                <ul class="subtitle">
-                    <li class="list check">Quarterly Newsletter<span class="box editorial">Editorial</span></li>
+        <!-- TASK -->
+        <div class=task>
+            <!-- inizio new task -->
+            <section>
+                <h2 class="title">New Task</h2>
+                    <ul class="subtitle">
+                        <li class="list check">Quarterly Newsletter<span class="tag editorial">Editorial</span></li>
+                    </ul>
+            </section>
+            <!-- fine new task -->
+            <!-- inizio today -->
+            <section class="section-task">
+                <h2 class="title">Today</h2>
+                    <ul class="subtitle">
+                        <li class="list check">Recruiting blog post<span class="tag editorial">Editorial</span></li>
+                        <li class="list check">Mobile app launch<span class="tag goals">Q1 Goals</span></li>
+                        <li class="list cross">Interview John H.<span class="tag recruiting">Recruiting</span></li>
+                        <li class="list check">Summit update to monile storefronts<span class="tag mobile">Mobile</span></li>
+                    </ul>
+            </section>
+            <!-- fine today -->
+            <!-- inizio upcoming -->
+            <section>
+                <h2 class="title">Upcoming</h2>
+                    <ul class="subtitle">
+                        <li class="list cross">Schedule meeting with Alex</li>
+                        <li class="list check">Homepage refresh<span class="tag website">Website</span></li>
+                        <li class="list check">Onboard new Sales team members<span class="tag sales">Sales</span></li>
+                        <li class="list check">Review editorial calendar<span class="tag editorial">Editorial</span></li>
                 </ul>
-        </section>
-        <!-- fine new task -->
-        <!-- inizio today -->
-        <section>
-            <h2 class="title">Today</h2>
-                <ul class="subtitle">
-                    <li class="list check">Recruiting blog post<span class="box editorial">Editorial</span></li>
-                    <li class="list check">Mobile app launch<span class="box goals">Q1 Goals</span></li>
-                    <li class="list cross">Interview John H.<span class="box recruiting">Recruiting</span></li>
-                    <li class="list check">Summit update to monile storefronts<span class="box mobile">Mobile</span></li>
-                </ul>
-        </section>
-        <!-- fine today -->
-        <!-- inizio upcoming -->
-        <section>
-            <h2 class="title">Upcoming</h2>
-            <ul class="subtitle">
-                <li class="list cross">Schedule meeting with Alex</li>
-                <li class="list check">Homepage refresh<span class="box website">Website</span></li>
-                <li class="list check">Onboard new Sales team members<span class="box sales">Sales</span></li>
-                <li class="list check">Review editorial calendar<span class="box editorial">Editorial</span></li>
-            </ul>
-        </section>
-        <!-- fine upcoming -->
+            </section>
+            <!-- fine upcoming -->
+        </div>
+        <!-- fine TASK -->
     </main>
     <!-- fine main -->
 
